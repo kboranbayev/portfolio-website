@@ -4,7 +4,7 @@ var session = require('express-session');
 var bodyParser = require('body-parser');
 var errorHandler = require('errorhandler');
 var cookieParser = require('cookie-parser');
-var MongoStore = require('connect-mongo')(session);
+//var MongoStore = require('connect-mongo')(session);
 var app = express();
 
 
@@ -22,9 +22,10 @@ app.use(express.static(__dirname + '/app/public'));
 
 var dbHost = process.env.DB_HOST || 'localhost'
 var dbPort = process.env.DB_PORT || 27017;
-var dbName = process.env.DB_NAME || 'RDT';
+//var dbName = process.env.DB_NAME || 'RDT';
 
-var dbURL = 'mongodb://'+dbHost+':'+dbPort+'/'+dbName;
+//var dbURL = 'mongodb://'+dbHost+':'+dbPort+'/'+dbName;
+/*
 if (app.get('env') == 'live'){
 	// prepend url with authentication credentials //
 	dbURL = 'mongodb://'+process.env.DB_USER+':'+process.env.DB_PASS+'@'+dbHost+':'+dbPort+'/'+dbName;
@@ -37,7 +38,7 @@ app.use(session({
 	store: new MongoStore({ url: dbURL })
 	})
 );
-
+*/
 app.get('/', function(req, res) {
   res.render('index', {
     title: 'Reddunt'
