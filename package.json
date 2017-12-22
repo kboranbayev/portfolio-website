@@ -1,10 +1,9 @@
 {
-  "name": "MentalHealthBootcamp",
+  "name": "Kuanysh Boranbayev Portfolio",
   "version": "1.0.0",
-  "description": "Mental Health Bootcamp",
+  "description": "Kuanysh Boranbayev Portfolio",
   "dependencies": {
     "body-parser": "1.14.1",
-    "connect-mongo": "0.8.2",
     "cookie-parser": "1.4.0",
     "emailjs": "^1.0.4",
     "errorhandler": "1.4.2",
@@ -13,9 +12,6 @@
     "express-session": "1.11.3",
     "jade": "1.11.0",
     "moment": "2.13.0",
-    "mongodb": "^2.2.25",
-    "paypal-ipn": "^3.0.0",
-    "paypal-rest-sdk": "^1.7.1",
     "stylus": "0.52.4"
   },
   "engines": {
