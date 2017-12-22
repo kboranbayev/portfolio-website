@@ -1,0 +1,45 @@
+doctype html
+//if lt IE 7
+  html.no-js.lt-ie9.lt-ie8.lt-ie7
+//if IE 7
+  html.no-js.lt-ie9.lt-ie8
+//if IE 8
+  html.no-js.lt-ie9
+// [if gt IE 8] <!
+html.no-js
+  // <![endif]
+  head
+    include head
+  body
+    block header
+      include header
+    #rdt-main
+      .rdt-overlay-mobile
+      block main
+        include main
+      block portfolio
+        //include portfolio
+      block about
+        include about
+      block resume
+        include resume
+      block contact
+        include contact
+      block footer
+        include footer
+
+      // END rdt-page
+      // jQuery
+      script(src='js/jquery.min.js')
+      // jQuery Easing
+      script(src='js/jquery.easing.1.3.js')
+      // Bootstrap
+      script(src='js/bootstrap.min.js')
+      // Waypoints
+      script(src='js/jquery.waypoints.min.js')
+      // Stellar Parallax
+      script(src='js/jquery.stellar.min.js')
+      // Flexslider
+      script(src='js/jquery.flexslider-min.js')
+      // Main JS
+      script(src='js/main.js')
