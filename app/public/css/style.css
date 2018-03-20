@@ -316,7 +316,8 @@ p {
  * Flexslider
  */
 #rdt-home {
-  min-height: 700px;
+  width: 100%;
+  height: 800px;
   background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #rdt-home .flexslider {
@@ -350,9 +351,25 @@ p {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+#rdt-home .flexslider .slides {
+  background-image: url(../images/web_img_2100_1181.jpg);
+  background-size: cover;
+}
 @media screen and (max-width: 992px) {
+  #rdt-home {
+    height: 200px;
+  }
   #rdt-home .flexslider .rdt-text h1 {
     font-size: 30px;
+  }
+  #rdt-home .slides {
+    background-size: 100% 100%;
+    background-image: url(../images/web_img_1260_709.jpg);
+    background-size: cover;
+  }
+  #rdt-home .rdt-home-img {
+    max-width: 100%;
+    height: auto;
   }
 }
 #rdt-home .flexslider .rdt-text .rdt-go {
@@ -386,9 +403,9 @@ p {
 #rdt-home .flexslider .rdt-text .rdt-go a:hover span {
   text-decoration: none;
 }
-#rdt-home .flexslider .slides li {
-  background-repeat: no-repeat;
-  background-size: cover;
+#rdt-home {
+  max-width: 100%;
+  height: auto;
 }
 #rdt-home .flexslider .rdt-overlay {
   position: absolute;
@@ -496,6 +513,10 @@ p {
   #rdt-testimony,
   #rdt-content {
     padding: 4em 0;
+  }
+  #rdt-home .flexslider .slides {
+    background-image: url(../images/web_img_651_366.jpg);
+    background-size: cover;
   }
 }
 
@@ -800,15 +821,9 @@ p {
   left: 50%;
   background: #f9ad81;
 }
-.img-grid:hover > a {
-  opacity: 1;
-}
-.img-grid:hover > a > div {
-  bottom: 20px;
-}
 
 .section-heading .rdt-section-title {
-  font-size: 11px;
+  font-size: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #41454f;
@@ -823,10 +838,50 @@ p {
 }
 @media screen and (max-width: 768px) {
   .rdt-lead {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .rdt-text h2 {
+    font-size: 15px;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .rdt-lead {
+    font-size: 13px;
+  }
+  .rdt-text h2 {
+    font-size: 20px;
+  }
+  #rdt-logo {
+    font-size: auto;
+  }
+  #rdt-about .headings {
+    position: center;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .rdt-lead {
+    font-size: 10px;
+  }
+  .rdt-text h2 {
+    font-size: 15px;
+  }
+  #rdt-header #rdt-logo a {
+    font-size: 30px;
+  }
+  #rdt-about .headings {
+    position: center;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #rdt-header #rdt-logo a {
+    font-size: 24px;
+  }
+}
 .js .to-animate, .js
 .to-animate-2, .js
 .animate-box {
