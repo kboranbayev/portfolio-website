@@ -878,10 +878,33 @@ p {
 }
 
 @media screen and (max-width: 350px) {
+  #rdt-header #rdt-logo {
+    margin-top: 2px;
+  }
   #rdt-header #rdt-logo a {
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 310px) {
+  #rdt-header #rdt-logo {
+    margin-top: 5px;
+  }
+  #rdt-header #rdt-logo a {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #rdt-header #rdt-logo {
+    margin-top: 5px;
+  }
+  #rdt-header #rdt-logo a {
+    font-size: 20px;
+  }
+}
+
+
 .js .to-animate, .js
 .to-animate-2, .js
 .animate-box {
