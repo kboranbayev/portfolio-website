@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
@@ -337,7 +337,7 @@ p {
 #rdt-home .flexslider .rdt-text h1 {
   margin: 0 0 30px 0;
   padding: 0;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 50px;
   font-weight: 400;
   color: #fff;
@@ -376,7 +376,7 @@ p {
   margin-top: 30px;
 }
 #rdt-home .flexslider .rdt-text .rdt-go a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -451,7 +451,7 @@ p {
   right: 30px;
 }
 #rdt-offcanvas .rdt-offcanvas-close:before {
-  font-family: 'icomoon';
+  font-family: 'Roboto Slab';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -570,7 +570,7 @@ p {
 }
 
 #rdt-about .headings {
-  font-family: 'icomoon';
+  font-family: 'Roboto Slab';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -589,7 +589,7 @@ p {
   margin-right: -30px;
   top: 50%;
   margin-top: -25px;
-  font-family: 'icomoon';
+  font-family: 'Roboto Slab';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -665,7 +665,7 @@ p {
   display: block;
   padding-top: 20px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-style: normal;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -722,7 +722,30 @@ p {
   width: 100%;
 }
 
+#rdt-skills .rdt-skills {
+  padding: 2em 0;
+}
+
+#rdt-skills .rdt-skill {
+  background: rgba(68, 72, 83, 0.9);
+  border-radius: 3em;
+  border-style: groove;
+  border-color: #f67d38;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 2em;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #f67d38;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 .rdt-social {
+  color: #000;
   padding: 0;
   margin: 0;
 }
@@ -827,7 +850,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #41454f;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   font-weight: 700;
   opacity: .4;
   margin-bottom: 20px;
@@ -912,7 +935,7 @@ p {
 }
 
 .animate-box.brief-welcome-text {
-  font-family: "Sylfaen", sans-serif;
+  font-family: "Sylfaen", "Roboto Slab", sans-serif;
   color: #fff;
 }
 

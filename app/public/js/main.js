@@ -53,6 +53,20 @@
 	  	});
 	}
 
+	// Animate Feature
+	var animateFeatureIcons = function() {
+		if ( $('.rdt-skills').length > 0 ) {
+			$('.rdt-skill .to-animate').each(function( k ) {
+
+				var el = $(this);
+
+				setTimeout ( function () {
+					el.addClass('bounceIn animated');
+				},  k * 200, 'easeInOutExpo' );
+			});
+		}
+	};
+
 	var offcanvasMenu = function() {
 		$('body').prepend('<div id="rdt-offcanvas" />');
 		$('#rdt-offcanvas').append($('#rdt-main-nav').clone());
@@ -269,6 +283,6 @@
 
 		// Animations
 		contentWayPoint();
-
+		animateFeatureIcons();
 	});
 }());
